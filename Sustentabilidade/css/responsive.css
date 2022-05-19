@@ -1,0 +1,852 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+
+
+
+
+
+@media (max-width: 1366px) {
+    .main-layout {
+        padding: 15px 10px;
+
+        width: 105%;
+    }
+
+    .testimonial_Carousel .test_box p {
+        font-size: 20px;
+        line-height: 28px;
+        color: #222122;
+        text-align: left;
+        padding-top: 20px;
+        margin-left: -70px;
+        width: 130mm;
+        height: 40mm;
+        border:1px solid white;
+   
+   }
+   
+}
+
+
+
+@media (max-width: 1024px) {
+    .main-layout {
+        padding: 15px 10px;
+
+        width: 135%;
+    }
+
+    .testimonial_Carousel .test_box p {
+        font-size: 20px;
+        line-height: 28px;
+        color: #222122;
+        text-align: left;
+        padding-top: 20px;
+        margin-left: -70px;
+        width: 120mm;
+        height: 50mm;
+        border:1px solid  white;
+   
+   }
+   
+}
+
+
+
+
+
+   
+
+
+
+@media (max-width: 530px) {
+    .main-layout {
+        padding: 15px 10px;
+
+        width: 105%;
+    }
+
+    .testimonial_Carousel .test_box p {
+        font-size: 16px;
+        line-height: 28px;
+        color: #222122;
+        text-align: left;
+        padding-top: 20px;
+        margin-left: -70px;
+        width: 40mm;
+        height: 80mm;
+        border:1px solid  white;
+   
+   }
+   
+
+    .test-box{
+        font-size: 12px;
+    }
+    .padding_lert {
+        padding-left: 15px;
+    }
+
+
+     .titulo{
+      line-height: 20%;
+    }
+
+    .titulo{
+        padding: 10px;
+    }
+    .padding_right {
+        padding-right: 15px;
+    }
+    .banner_main_img h3 {font-size: 23px;}
+    .logo {
+        padding-top: 56px;
+        display: block;
+        margin: 0 auto;
+    }
+    .order_2 {
+        order: 2 !important;
+    }
+    .order_1 {
+        order: 1 !important;
+    }
+    .banner_main .read_more {
+        margin-bottom: 30px;
+    }
+    .banner_main .titlepage h2 {
+        font-size: 38px;
+    }
+    .our_fruit .titlepage h2,
+    .about .titlepage h2,
+    .our .titlepage h2,
+    .testimonial_box .titlepage h2 {
+        margin-top: 20px;
+    }
+    .testimonial_Carousel {
+        padding: 100px 5px;
+    }
+    .cont h3 {
+        font-size: 34px;
+    }
+    .titlepage{
+        margin-top: 50px;
+    }
+
+    #titulo{
+        font-size: 23px;
+        font-style: initial;
+    }
+
+    #title-our{
+           font-size: 23px;
+        font-style: initial;
+
+    }
+
+
+body.politics_version .header_style_01 {
+        position: relative;
+        top: 0;
+        background-color: #1f1f1f !important;
+    }
+    body.realestate_version .message-box,
+    body.realestate_version .service-widget {
+        margin: 15px 0;
+    }
+    body.realestate_version .property-detail .col-md-2 {
+        margin: 15px 0;
+    }
+    body.realestate_version .first-section {
+        padding: 10em 0 !important;
+    }
+    body.realestate_version .header_style_01 {
+        position: relative;
+        background-color: #1f1f1f;
+    }
+    .footer .col-xs-12 {
+        margin: 15px 0;
+        width: 100% !important;
+    }
+    body.clinic_version .app_iphone_01,
+    body.clinic_version .app_iphone_02,
+    body.clinic_version .app_iphone_03 {
+        display: none;
+    }
+    body.seo_version .header_style_01 {
+        background-color: #ffffff;
+    }
+    .navbar-default .btn-light {
+        display: block;
+        width: 100%;
+        border: 0 !important;
+        padding: 0 !important;
+        margin: -8px -2px 0 !important;
+        line-height: 1 !important;
+    }
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+    .header_style_01 {
+        background-color: #1f1f1f;
+        display: block;
+        left: 0;
+        padding: 20px 40px;
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 111;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #121212;
+        color: #fff !important;
+		margin-top: 25px;
+        background-color: #121212;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .affix-top {
+        overflow: hidden;
+        visibility: visible;
+        opacity: 1;
+        top: 0 !important;
+    }
+    .header_style_01 .navbar-default .navbar-nav > li a {
+        padding: 10px 20px;
+    }
+    .first-section .col-md-6 {
+        width: 100%;
+        text-align: center;
+    }
+    .social-links,
+    .macbookright {
+        display: none !important;
+    }
+    .footer-distributed form input {
+        width: 300px;
+    }
+    .footer-distributed {
+        padding: 30px;
+        text-align: center;
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-company-name {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        float: none;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .footer-distributed .footer-left {
+        margin-bottom: 20px;
+    }
+    .footer-distributed form input {
+        width: 100%;
+    }
+	.navbar-default .navbar-toggle .icon-bar{
+		background: #ffffff;
+	}
+	.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
+		background-color: #bac63e;
+		border-color: #bac63e;
+	}
+	.who{
+		margin-bottom: 30px;
+	}
+	body.seo_version .first-section h2{
+		font-size: 30px;
+	}
+    .whatsapp{
+        margin-top: -50px;
+    }
+
+       .social-md {
+        width: 150px; 
+    }
+    
+
+    #icon-bar{
+        background-color: #fff;
+    }
+
+        
+
+
+  
+   }
+
+
+   
+@media (max-width: 740px) {
+    .main-layout {
+        padding: 15px 10px;
+
+        width: 105%;
+    }
+
+    .testimonial_Carousel .test_box p {
+        font-size: 16px;
+        line-height: 28px;
+        color: #222122;
+        text-align: left;
+        padding-top: 20px;
+        margin-left: -70px;
+        width: 20mm;
+        height: 80mm;
+        border:1px solid  white;
+   
+   }
+   
+
+    .test-box{
+        font-size: 12px;
+    }
+    .padding_lert {
+        padding-left: 15px;
+    }
+
+
+     .titulo{
+      line-height: 20%;
+    }
+
+    .titulo{
+        padding: 10px;
+    }
+    .padding_right {
+        padding-right: 15px;
+    }
+    .banner_main_img h3 {font-size: 23px;}
+    .logo {
+        padding-top: 56px;
+        display: block;
+        margin: 0 auto;
+    }
+    .order_2 {
+        order: 2 !important;
+    }
+    .order_1 {
+        order: 1 !important;
+    }
+    .banner_main .read_more {
+        margin-bottom: 30px;
+    }
+    .banner_main .titlepage h2 {
+        font-size: 38px;
+    }
+    .our_fruit .titlepage h2,
+    .about .titlepage h2,
+    .our .titlepage h2,
+    .testimonial_box .titlepage h2 {
+        margin-top: 20px;
+    }
+    .testimonial_Carousel {
+        padding: 100px 5px;
+    }
+    .cont h3 {
+        font-size: 34px;
+    }
+    .titlepage{
+        margin-top: 50px;
+    }
+
+    #titulo{
+        font-size: 23px;
+        font-style: initial;
+    }
+
+    #title-our{
+           font-size: 23px;
+        font-style: initial;
+
+    }
+
+
+body.politics_version .header_style_01 {
+        position: relative;
+        top: 0;
+        background-color: #1f1f1f !important;
+    }
+    body.realestate_version .message-box,
+    body.realestate_version .service-widget {
+        margin: 15px 0;
+    }
+    body.realestate_version .property-detail .col-md-2 {
+        margin: 15px 0;
+    }
+    body.realestate_version .first-section {
+        padding: 10em 0 !important;
+    }
+    body.realestate_version .header_style_01 {
+        position: relative;
+        background-color: #1f1f1f;
+    }
+    .footer .col-xs-12 {
+        margin: 15px 0;
+        width: 100% !important;
+    }
+    body.clinic_version .app_iphone_01,
+    body.clinic_version .app_iphone_02,
+    body.clinic_version .app_iphone_03 {
+        display: none;
+    }
+    body.seo_version .header_style_01 {
+        background-color: #ffffff;
+    }
+    .navbar-default .btn-light {
+        display: block;
+        width: 100%;
+        border: 0 !important;
+        padding: 0 !important;
+        margin: -8px -2px 0 !important;
+        line-height: 1 !important;
+    }
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+    .header_style_01 {
+        background-color: #1f1f1f;
+        display: block;
+        left: 0;
+        padding: 20px 40px;
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 111;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #121212;
+        color: #fff !important;
+		margin-top: 25px;
+        background-color: #121212;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .affix-top {
+        overflow: hidden;
+        visibility: visible;
+        opacity: 1;
+        top: 0 !important;
+    }
+    .header_style_01 .navbar-default .navbar-nav > li a {
+        padding: 10px 20px;
+    }
+    .first-section .col-md-6 {
+        width: 100%;
+        text-align: center;
+    }
+    .social-links,
+    .macbookright {
+        display: none !important;
+    }
+    .footer-distributed form input {
+        width: 300px;
+    }
+    .footer-distributed {
+        padding: 30px;
+        text-align: center;
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-company-name {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        float: none;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .footer-distributed .footer-left {
+        margin-bottom: 20px;
+    }
+    .footer-distributed form input {
+        width: 100%;
+    }
+	.navbar-default .navbar-toggle .icon-bar{
+		background: #ffffff;
+	}
+	.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
+		background-color: #bac63e;
+		border-color: #bac63e;
+	}
+	.who{
+		margin-bottom: 30px;
+	}
+	body.seo_version .first-section h2{
+		font-size: 30px;
+	}
+    .whatsapp{
+        margin-top: -50px;
+    }
+
+       .social-md {
+        width: 150px; 
+    }
+    
+
+    #icon-bar{
+        background-color: #fff;
+    }
+
+        
+
+
+  
+   }
+
+
+
+
+
+
+   @media (max-width:488px) {
+    .main-layout {
+        padding: 15px 10px;
+
+        width: 105%;
+    }
+
+    .testimonial_Carousel .test_box p {
+        font-size: 10px;
+        line-height: 28px;
+        color: #222122;
+        text-align: left;
+        padding-top: 20px;
+        margin-left: -70px;
+        width: 35mm;
+        height: 80mm;
+        border:1px solid  white;
+   
+   }
+
+  h4{
+      font-size: 14px;
+      margin-top: 20px;
+  }
+   
+    .padding_lert {
+        padding-left: 15px;
+    }
+
+
+     .titulo{
+      line-height: 20%;
+    }
+
+    .titulo{
+        padding: 10px;
+    }
+    .padding_right {
+        padding-right: 15px;
+    }
+    .banner_main_img h3 {font-size: 23px;}
+    .logo {
+        padding-top: 56px;
+        display: block;
+        margin: 0 auto;
+    }
+    .order_2 {
+        order: 2 !important;
+    }
+    .order_1 {
+        order: 1 !important;
+    }
+    .banner_main .read_more {
+        margin-bottom: 30px;
+    }
+    .banner_main .titlepage h2 {
+        font-size: 38px;
+    }
+    .our_fruit .titlepage h2,
+    .about .titlepage h2,
+    .our .titlepage h2,
+    .testimonial_box .titlepage h2 {
+        margin-top: 20px;
+    }
+    .testimonial_Carousel {
+        padding: 100px 5px;
+    }
+    .cont h3 {
+        font-size: 34px;
+    }
+    .titlepage{
+        margin-top: 50px;
+    }
+
+    #titulo{
+        font-size: 18px;
+        font-style: initial;
+    }
+
+    #title-our{
+           font-size: 18px;
+        font-style: initial;
+
+    }
+
+  
+   }
+
+
+        
+   @media (max-width:700px) {
+    .main-layout {
+        padding: 15px 10px;
+
+        width: 170%;
+    }
+
+    .testimonial_Carousel .test_box p {
+        font-size: 18px;
+        line-height: 28px;
+        color: #222122;
+        text-align: left;
+        padding-top: 20px;
+        margin-left: -70px;
+        width: 80mm;
+        height: 60mm;
+        border:1px solid  white;
+   
+   }
+
+
+
+
+
+  h4{
+      font-size: 14px;
+      margin-top: 20px;
+  }
+   
+    .padding_lert {
+        padding-left: 15px;
+    }
+
+
+     .titulo{
+      line-height: 20%;
+    }
+
+    .titulo{
+        padding: 10px;
+    }
+    .padding_right {
+        padding-right: 15px;
+    }
+    .banner_main_img h3 {font-size: 23px;}
+    .logo {
+        padding-top: 56px;
+        display: block;
+        margin: 0 auto;
+    }
+    .order_2 {
+        order: 2 !important;
+    }
+    .order_1 {
+        order: 1 !important;
+    }
+    .banner_main .read_more {
+        margin-bottom: 30px;
+    }
+    .banner_main .titlepage h2 {
+        font-size: 38px;
+    }
+    .our_fruit .titlepage h2,
+    .about .titlepage h2,
+    .our .titlepage h2,
+    .testimonial_box .titlepage h2 {
+        margin-top: 20px;
+    }
+    .testimonial_Carousel {
+        padding: 100px 5px;
+    }
+    .cont h3 {
+        font-size: 34px;
+    }
+    .titlepage{
+        margin-top: 50px;
+    }
+
+    #titulo{
+        font-size: 18px;
+        font-style: initial;
+    }
+
+    #title-our{
+           font-size: 18px;
+        font-style: initial;
+
+    }
+
+  
+   }
+
+
+       
+   @media (max-width:390px) {
+    .main-layout {
+        padding: 15px 10px;
+
+        width: 170%;
+    }
+
+    .testimonial_Carousel .test_box p {
+        font-size: 18px;
+        line-height: 28px;
+        color: #222122;
+        text-align: left;
+        padding-top: 20px;
+        margin-left: -70px;
+        width: 60mm;
+        height: 80mm;
+        border:1px solid  white;
+   
+   }
+
+
+
+
+    .padding_lert {
+        padding-left: 15px;
+    }
+
+   
+    .padding_right {
+        padding-right: 15px;
+    }
+    .banner_main_img h3 {font-size: 23px;}
+    .logo {
+        padding-top: 56px;
+        display: block;
+        margin: 0 auto;
+    }
+    .order_2 {
+        order: 2 !important;
+    }
+    .order_1 {
+        order: 1 !important;
+    }
+    .banner_main .read_more {
+        margin-bottom: 30px;
+    }
+    .banner_main .titlepage h2 {
+        font-size: 38px;
+    }
+    .our_fruit .titlepage h2,
+    .about .titlepage h2,
+    .our .titlepage h2,
+    .testimonial_box .titlepage h2 {
+        margin-top: 20px;
+    }
+    .testimonial_Carousel {
+        padding: 100px 5px;
+    }
+    .cont h3 {
+        font-size: 34px;
+    }
+    .titlepage{
+        margin-top: 50px;
+    }
+
+    #titulo{
+        font-size: 18px;
+        font-style: initial;
+    }
+
+    #title-our{
+           font-size: 18px;
+        font-style: initial;
+
+    }
+
+  
+   }
+  
+   
+
+
+
