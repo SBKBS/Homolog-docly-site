@@ -1,3 +1,4 @@
+
 /*
 
 Snapshot Template
@@ -10,6 +11,10 @@ http://www.templatemo.com/tm-493-snapshot
 /*---------------------------------------
     About Section              
 -----------------------------------------*/
+
+#about{
+  margin-left: 20px;
+}
 
 #about .item {
   width: 100%;
@@ -56,6 +61,7 @@ http://www.templatemo.com/tm-493-snapshot
 
 #about .team-thumb:hover {
   background: #304352;
+  background: #09325c;
 
 }
 
