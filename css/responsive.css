@@ -150,9 +150,8 @@ u{
     color: #bac63e;
 }
 
-.iframe{
-    height: 100px;
-    width: 200px;
+iframe{
+    margin-bottom: -450px;
 }
     
     
@@ -309,10 +308,8 @@ u{
 
 }
 
-
 .iframe{
-    height: 100px;
-    width: 200px;
+    margin-bottom: -450px;
 }
 }
 
@@ -465,9 +462,8 @@ color: #bac63e;
 
 }
 
-.iframe{
-    height: 100px;
-    width: 200px;
+iframe{
+    margin-bottom: -450px;
 }
 
 }
@@ -641,12 +637,12 @@ color: #bac63e;
 
    .iframe {
     position: relative;
-    width: 330px; 
+   width: 330px; 
 
   }
 
   #frame-button{
-    width: 120px; 
+3width: 120px; 
     height: 35px;
     margin-left: 170px;
     margin-top: -130px;
@@ -748,12 +744,12 @@ color: #bac63e;
 
     .iframe{
     height: 150px;
-    width: 200px;
+  width: 200px;
     margin-top: -100px;
     }
 
     #frame-button{
-        width: 120px; 
+3      width: 120px; 
         height: 35px;
         margin-left: 170px;
         margin-top: -130px;
@@ -882,11 +878,11 @@ color: #bac63e;
 
    .iframe {
     position: relative;
-    width: 360px; 
+   width: 360px; 
 
   }
   #frame-button{
-    width: 120px; 
+3idth: 120px; 
     height: 35px;
     margin-left: 170px;
     margin-top: -130px;
@@ -1017,12 +1013,11 @@ color: #bac63e;
 
    .iframe {
     position: relative;
-    width: 360px; 
+   width: 360px; 
     display: none;
 
   }
-  #frame-button{
-    width: 120px; 
+  #frame-button{3   width: 120px; 
     height: 35px;
     margin-left: 170px;
     margin-top: -130px;
@@ -1214,14 +1209,13 @@ font-size: 12px;}
     color: #13b6df;
 }
 
-.iframe {
+iframe {
     position: relative;
     width: 30px; 
 
   }
 
-#frame-button{
-    width: 20px; 
+#frame-button{3   width: 20px; 
     height: 20px;
     margin-left: 8px;
     margin-top: -130px;
@@ -1431,12 +1425,12 @@ font-size: 12px;}
 
    .iframe {
     position: relative;
-    width: 360px; 
+   width: 360px; 
 
   }
 
 #frame-button{
-    width: 120px; 
+    3dth: 120px; 
     height: 35px;
     margin-left: 170px;
     margin-top: -130px;
