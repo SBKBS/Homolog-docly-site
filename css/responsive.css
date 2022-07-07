@@ -151,7 +151,7 @@ u{
 }
 
 iframe{
-    margin-bottom: -450px;
+    margin-bottom: -250px;
 }
     
     
@@ -642,7 +642,7 @@ iframe{
   }
 
   #frame-button{
-3width: 120px; 
+    width: 120px; 
     height: 35px;
     margin-left: 170px;
     margin-top: -130px;
@@ -749,7 +749,7 @@ iframe{
     }
 
     #frame-button{
-3      width: 120px; 
+    width: 120px; 
         height: 35px;
         margin-left: 170px;
         margin-top: -130px;
@@ -882,7 +882,7 @@ iframe{
 
   }
   #frame-button{
-3idth: 120px; 
+
     height: 35px;
     margin-left: 170px;
     margin-top: -130px;
@@ -1017,7 +1017,7 @@ iframe{
     display: none;
 
   }
-  #frame-button{3   width: 120px; 
+  #frame-button{  width: 120px; 
     height: 35px;
     margin-left: 170px;
     margin-top: -130px;
@@ -1215,7 +1215,7 @@ iframe {
 
   }
 
-#frame-button{3   width: 20px; 
+#frame-button{  width: 20px; 
     height: 20px;
     margin-left: 8px;
     margin-top: -130px;
@@ -1429,12 +1429,166 @@ font-size: 12px;}
 
   }
 
-#frame-button{
-    3dth: 120px; 
-    height: 35px;
-    margin-left: 170px;
-    margin-top: -130px;
-    font-size: 10px;
+}
+
+
+/******************************************
+    Version: 1.0
+/****************************************** */
+
+@media (max-width: 763px) {
+    body.host_version .btn-light,
+    body.app_version .btn-light {
+        font-size: 14px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        text-align: center;
+        width: 40% !important;
+    }
+    body.app_version .btn-light i {
+        display: none !important;
+    }
+    .copyrights {
+        padding: 40px 10px;
+    }
+    .footer-distributed {
+        padding: 0;
+    }
+    .section-title p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .section-title h3 {
+        font-size: 28px;
+    }
+    .portfolio-filter ul li .btn-dark {
+        border: 0 !important;
+        width: 100%;
+        display: block;
+        background-color: #ffffff;
+        border-radius: 0;
+    }
+    .portfolio-filter ul li {
+        border-radius: 0;
+        padding: 1px;
+        display: inline-block;
+        margin: 0 1px 2px 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #ededed;
+        vertical-align: middle;
+        width: 49%;
+        float: left;
+        border: 0 solid #ededed;
+    }
+	.navbar-default .navbar-toggle .icon-bar{
+		background: #ffffff;
+	}
+	.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
+		background-color: #bac63e;
+		border-color: #bac63e;
+	}
+	.who{
+		margin-bottom: 30px;
+	}
+	body.seo_version .first-section h2{
+		font-size: 30px;
+	}
+	.letter{
+		font-size: 48px;
+	}
+	.cupcakeCircle{
+		height: 50px;
+		width: 50px;
+	}
+	.message-box h2{
+		font-size: 28px;
+	}
+	.pricing-table-header h2 {
+		font-size: 24px;
+	}
+	.pricing-table-text{
+		margin: 15px 15px;
+	}
+	.pricing-table-features{
+		margin: 10px 10px;
+	}
+	.footer .widget-title small{
+		padding: 0 25px;
+	}
+	.all-page-title{
+		padding: 100px 0px 100px 0px
+	}
+	.section{
+		padding: 60px 0px;
+	}
+	.contact_form{
+		padding: 40px 0px;
+	}
+    .whatsapp{
+        margin-top: -80px;
+        width: 70px;
+    }
+
+    .social-md {
+        width: 150px; 
+    }
+
+    .alert{
+        margin-top: -50px;
+        height: 130px;
+    }
+
+    #scroll-to-top{
+        margin-right: -20px;
+        width: 40px;
+        height: 38px;
+    }
+
+
+.termos-LGPD h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+}
+
+.termos-LGPD h1{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+
+.termos-LGPD p{
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+
+
+.lista{
+    font-size: 12px;
+}
+
+.termos-LGPD{
+    margin-top: 30px;
+}
+
+
+#line-one{
+    margin-top: -40px;
+}
+
+u{
+
+    color: #bac63e;
+}
+
+iframe{
+    margin-top: 05px;
+    width: 100%;
+    margin-bottom: -200px;
+  
 }
 
 }

@@ -84,7 +84,7 @@ h5 a,
 h6 a {
     color: #212121;
     text-decoration: none!important;
-    opacity: 1
+   
 }
 
 h1 a:hover,
@@ -145,7 +145,7 @@ button:focus{
 
 .form-control::-moz-placeholder {
     color: #12557f;
-    opacity: 1;
+   ;
 }
 
 
