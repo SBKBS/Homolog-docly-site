@@ -654,6 +654,10 @@ iframe{
 }
 
 
+#about{
+    margin-top: -200px;
+}
+
 
 }
 
@@ -764,6 +768,10 @@ iframe{
     iframe{
         margin-bottom: -300px;
       }
+
+      #about{
+        margin-top: -200px;
+    }
 
 }
 
@@ -898,6 +906,9 @@ iframe{
     font-size: 10px;
 }
 
+#about{
+    margin-top: -200px;
+}
 
 
 }
@@ -1036,7 +1047,7 @@ iframe{
 }
 
 #about{
-    margin-top: -300px;
+    margin-top: -200px;
 }
 
 }
