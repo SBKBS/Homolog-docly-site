@@ -1,6 +1,6 @@
 /* only small desktops */
 /* tablets */
-@media (min-width: 992px) and (max-width: 1190px) {
+@media (max-width: 412px) {
 	.countdown{
 		height: 285px;
 	}
@@ -15,7 +15,7 @@
 	}
 }
 /* only small tablets */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
 	.top-header .navbar .navbar-collapse ul li a{
 		padding: 5px 15px;
 	}
@@ -67,7 +67,7 @@
 }
 
 /* mobile or only mobile */
-@media (max-width: 767px) {
+@media (max-width: 1280px) {
 	.navbar-brand{
 		margin-left: 10px;
 		margin-right: 10px;
@@ -193,9 +193,12 @@
 	.blog-inner a{
 		padding: 10px 6px;
 	}
-	.pogoSlider-dir-btn{
-		display: none;
 
+	#firts-slide{
+		margin-left: 100px;
 	}
+
+
+
 	
 }

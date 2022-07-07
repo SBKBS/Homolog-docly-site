@@ -8,7 +8,12 @@
     IMPORT FILES
 -------------------------------------------------------------------*/
 
-
+@import url(animate.css);
+@import url(font-awesome.min.css);
+@import url(magnific-popup.css);
+@import url(responsiveslides.css);
+@import url(owl.carousel.min.css);
+@import url(flaticon.css);
 
 /*------------------------------------------------------------------
     SKELETON
@@ -216,7 +221,6 @@ button:focus{
 	border-radius: 33px;
 	padding: 10px 20px;
 	font-size: 20px;
-
 	color: #ffffff;
 	border: 2px solid #ffffff;
 	position: relative;
@@ -228,6 +232,8 @@ button:focus{
 	background: #bac63e;
 	color: #ffffff;
 }
+
+
 
 
 
