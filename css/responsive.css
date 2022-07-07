@@ -311,6 +311,8 @@ u{
 .iframe{
     margin-bottom: -450px;
 }
+
+
 }
 
 @media (max-width: 992px) {
@@ -465,6 +467,8 @@ color: #bac63e;
 iframe{
     margin-bottom: -450px;
 }
+
+
 
 }
 
@@ -650,6 +654,7 @@ iframe{
 }
 
 
+
 }
 
 @media (max-width: 768px) {
@@ -756,7 +761,9 @@ iframe{
         font-size: 10px;
     }
     
-
+    iframe{
+        margin-bottom: -300px;
+      }
 
 }
 
@@ -881,6 +888,8 @@ iframe{
    width: 360px; 
 
   }
+
+
   #frame-button{
 
     height: 35px;
@@ -888,6 +897,8 @@ iframe{
     margin-top: -130px;
     font-size: 10px;
 }
+
+
 
 }
 
@@ -1023,6 +1034,11 @@ iframe{
     margin-top: -130px;
     font-size: 10px;
 }
+
+#about{
+    margin-top: -150px;
+}
+
 }
 
 
@@ -1210,7 +1226,7 @@ font-size: 12px;}
 }
 
 iframe {
-    position: relative;
+    position: auto;
     width: 30px; 
 
   }
@@ -1227,6 +1243,7 @@ iframe {
     height: 35px;
     margin-top: 100px;
 }
+
 
 
 
@@ -1428,6 +1445,12 @@ font-size: 12px;}
    width: 360px; 
 
   }
+
+  iframe{
+    margin-tobmargin-bottom-300px;
+  }
+
+
 
 }
 
