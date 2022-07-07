@@ -1,7 +1,6 @@
 .pogoSlider-dir-btn:focus,
 .pogoSlider-nav-btn:focus {
-	outline: 0;
-	
+	outline: 0
 }
 
 .pogoSlider {
@@ -196,11 +195,11 @@
 }
 
 .pogoSlider--navTop .pogoSlider-nav {
-	top: 100px
+	top: 50px
 }
 
 .pogoSlider--navBottom .pogoSlider-nav {
-	bottom: 100px
+	bottom: 50px
 }
 
 .pogoSlider--navBottom .pogoSlider-nav li,
@@ -239,8 +238,7 @@
 	width: 40px;
 	height: 10px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
-	cursor: pointer;
-
+	cursor: pointer
 }
 
 .pogoSlider-nav-btn--selected {
@@ -1915,4 +1913,6 @@
 		transform: translateX(-100%)
 	}
 }
+
+
 

@@ -1436,7 +1436,7 @@ font-size: 12px;}
     Version: 1.0
 /****************************************** */
 
-@media (max-width: 763px) {
+@media (max-width: 1280px) {
     body.host_version .btn-light,
     body.app_version .btn-light {
         font-size: 14px;
@@ -1587,7 +1587,7 @@ u{
 iframe{
     margin-top: 05px;
     width: 100%;
-    margin-bottom: -200px;
+    margin-bottom: 200px;
   
 }
 
