@@ -8,12 +8,7 @@
     IMPORT FILES
 -------------------------------------------------------------------*/
 
-@import url(animate.css);
-@import url(font-awesome.min.css);
-@import url(magnific-popup.css);
-@import url(responsiveslides.css);
-@import url(owl.carousel.min.css);
-@import url(flaticon.css);
+
 
 /*------------------------------------------------------------------
     SKELETON
@@ -29,11 +24,11 @@ a {
     color: #1f1f1f;
     text-decoration: none !important;
     outline: none !important;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 h1,
@@ -136,10 +131,7 @@ button:focus{
 	outline: none;
 }
 
-.form-control::-moz-placeholder {
-    color: #12557f;
-    opacity: 1;
-}
+
 
 
 
@@ -221,6 +213,7 @@ button:focus{
 	border-radius: 33px;
 	padding: 10px 20px;
 	font-size: 20px;
+
 	color: #ffffff;
 	border: 2px solid #ffffff;
 	position: relative;
@@ -232,8 +225,6 @@ button:focus{
 	background: #bac63e;
 	color: #ffffff;
 }
-
-
 
 
 

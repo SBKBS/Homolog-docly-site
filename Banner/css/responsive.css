@@ -1,21 +1,17 @@
 /* only small desktops */
 /* tablets */
-@media (max-width: 412px) {
-	.countdown{
-		height: 285px;
+@media (min-width: 992px) {
+	.lbox-details h1{
+		font-size: 54px;
 	}
-	.top-header .navbar .navbar-collapse ul li a{
-		font-size: 14px;
+
+	.lbox-details p{
+		font-size: 24px;
 	}
-	.lbox-details h2{
-		font-size: 26px;
-	}
-	.right-top ul li a{
-		padding: 0px 15px;
-	}
+	
 }
 /* only small tablets */
-@media (max-width: 991px) {
+@media (min-width: 634px) {
 	.top-header .navbar .navbar-collapse ul li a{
 		padding: 5px 15px;
 	}
@@ -64,10 +60,11 @@
 	}
 
 
+
 }
 
 /* mobile or only mobile */
-@media (max-width: 1280px) {
+@media (max-width: 767px) {
 	.navbar-brand{
 		margin-left: 10px;
 		margin-right: 10px;
@@ -193,12 +190,25 @@
 	.blog-inner a{
 		padding: 10px 6px;
 	}
+	.pogoSlider-dir-btn{
+		display: none;
 
-	#firts-slide{
-		margin-left: 100px;
 	}
 
+	.pogoSlider-nav-btn{
+		display: none;
+	}
 
+	.lbox-details h1{
+		margin-top: 20px;
+		font-size: 20px;
+	}
 
+	.lbox-details p{
+
+		font-size: 15px;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
 	
 }
