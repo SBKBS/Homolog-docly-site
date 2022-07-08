@@ -1,100 +1,113 @@
 <!DOCTYPE html>
-<html lang="en"><!-- Basic -->
-<head>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
- 
-     <!-- Site Metas -->
-   
-    <meta name="keywords" content="">
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <title>Sixteen Clothing HTML Template</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Pogo Slider CSS -->
-    <link rel="stylesheet" href="css/pogo-slider.min.css">
-	<!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">    
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!--
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+TemplateMo 546 Sixteen Clothing
 
-</head>
-<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+https://templatemo.com/tm-546-sixteen-clothing
 
+-->
 
-	
-	<!-- Start Banner -->
-	<div class="ulockd-home-slider">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="pogoSlider" id="js-main-slider">
-					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(images/Slider-1.png);">
-						<div class="lbox-caption pogoSlider-slide-element">
-							<div class="lbox-details">
-								<h1>Gestão de RH</h1>
-								<p>Somos uma empresa especializadas em soluções para o <br>
-									processo de Admissão, para o seu RH ser mais simples e digital.  </p>
-								<a href="../contato.html" class="btn">Agende uma demonstração</a>
-						
-							
-							</div>
-							
-						</div>
-						
-					</div>
-					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500"  style="background-image:url(images/slider-02.jpg);">
-						<div class="lbox-caption pogoSlider-slide-element">
-							<div class="lbox-details">
-								<h1>Foco Ambiental, Social e Governança</h1>
-								<p>Vamos fazer a nossa parte, e reduzir o consumo de copos plasticos.
-									É o lema daqui pra frente.</p>
-								<a href="../Sustentabilidade/sustentabilidade.html" class="btn">Saiba mais</a>
-							</div>
-						</div>
-					</div>
-					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(images/slide-3.png);">
-						<div class="lbox-caption pogoSlider-slide-element">
-							<div class="lbox-details">
-								<h1>Inovação</h1>
-								<p>Ser digital é fundamental na implementação dos
-									seus objetivos estratégicos.  </p>
-								<a href="../solucoes.html" class="btn">Saiba mais</a>
-							</div>
-						</div>
-						
-					</div>
-				</div><!-- .pogoSlider -->
-			</div>
-		</div>
-	</div>
-	<!-- End Banner -->
-	
-	
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
 
-	<!-- ALL JS FILES -->
-	<script src="js/jquery.min.js"></script>
+  </head>
 
-    <!-- ALL PLUGINS -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.pogo-slider.min.js"></script> 
-	<script src="js/slider-index.js"></script>
+  <body>
 
 
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+
+    <div class="banner header-text" >
+      <div class="owl-banner owl-carousel" >
+        <div class="banner-item-01" >
+          <div class="text-content"  >
+            <h4 >Gestão de RH</h4>
+            <h3> Somos uma empresa especializadas em soluções para o
+              processo de Admissão, para o seu RH ser mais simples e digital.</h3>
+          </div>
+        </div>
+        <div class="banner-item-02">
+          <div class="text-content">
+            <h4>Foco Ambiental, Social e Governança</h4>
+            <h3> Vamos fazer a nossa parte, e reduzir o consumo de copos plasticos. É o lema daqui pra frente. </h3>
+          </div>
+        </div>
+        <div class="banner-item-03">
+          <div class="text-content">
+            <h4>Inovação</h4>
+            <h3>  Ser digital é fundamental na implementação dos seus objetivos estratégicos.  </h3>
+          </div>
+        </div>
+      </div>
+</div>
+      <script>
+
+        setInterval(slide,5000);
+        function slide(){
+            elemento = $('.ativo').next();
+            if(elemento.hasClass('slide_img')){
+                x = parseInt($('.slide').eq(0).css('margin-left')) / 250;
+        
+                final = (x - 1) * 250;
+                $('.slide').animate({'margin-left': final},500);
+                elemento = $('.ativo');
+                elemento.next().addClass('ativo');
+                elemento.removeClass('ativo');
+            }else{
+                $('.slide').css('margin-left',0);
+                $('.ativo').removeClass('ativo');
+                $('.slide_img').eq(0).addClass('ativo');
+            }
+        }
+        </script>
+    </div>
+    <!-- Banner Ends Here -->
+
+  
 
 
-</body>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+
+  </body>
+
 </html>
