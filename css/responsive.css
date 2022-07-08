@@ -153,6 +153,13 @@ u{
 iframe{
     margin-bottom: -250px;
 }
+
+#case{
+    margin-bottom: 300px;
+}
+
+
+
     
     
 
@@ -313,6 +320,11 @@ u{
 }
 
 
+#case{
+    margin-bottom: 300px;
+}
+
+
 }
 
 @media (max-width: 992px) {
@@ -468,7 +480,9 @@ iframe{
     margin-bottom: -450px;
 }
 
-
+#case{
+    margin-bottom: 300px;
+}
 
 }
 
@@ -658,6 +672,10 @@ iframe{
     margin-top: -200px;
 }
 
+#case{
+    margin-bottom: 300px;
+}
+
 
 }
 
@@ -771,6 +789,10 @@ iframe{
 
       #about{
         margin-top: -200px;
+    }
+
+    #case{
+        margin-bottom: 300px;
     }
 
 }
@@ -908,6 +930,10 @@ iframe{
 
 #about{
     margin-top: -200px;
+}
+
+#case{
+    margin-bottom: 300px;
 }
 
 
@@ -1048,6 +1074,10 @@ iframe{
 
 #about{
     margin-top: -200px;
+}
+
+#case{
+    margin-bottom: 300px;
 }
 
 }
@@ -1256,7 +1286,9 @@ iframe {
 }
 
 
-
+#case{
+    margin-bottom: 300px;
+}
 
 
 }
@@ -1620,6 +1652,10 @@ iframe{
     width: 100%;
    
   
+}
+
+#case{
+    margin-bottom: 300px;
 }
 
 }
