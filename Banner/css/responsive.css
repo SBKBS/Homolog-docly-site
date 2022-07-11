@@ -244,6 +244,11 @@
     .padd_bottom {
         padding-bottom: 30px;
     }
+
+
+   #mascote{
+    width: 200px;
+   }
  
     .navigation.navbar {
         display: inherit !important;
@@ -336,6 +341,11 @@
     .padd_bottom {
         padding-bottom: 30px;
     }
+
+
+   #mascote{
+    width: 200px;
+   }
  
     .navigation.navbar {
         display: inherit !important;
@@ -368,6 +378,10 @@
         background: url(../images/menu_icon.png);
         background-repeat: no-repeat;
     }
+
+   #mascote{
+    width: 200px;
+   }
    
 }
 
@@ -425,6 +439,11 @@
     .padd_bottom {
         padding-bottom: 30px;
     }
+
+
+   #mascote{
+    width: 200px;
+   }
  
     .navigation.navbar {
         display: inherit !important;
@@ -508,6 +527,11 @@
     .padd_bottom {
         padding-bottom: 30px;
     }
+
+
+   #mascote{
+    width: 200px;
+   }
  
     .navigation.navbar {
         display: inherit !important;
@@ -533,6 +557,10 @@
     .testimonial_box {
         padding: 0px 19px 40px 20px;
     }
+
+   #mascote{
+    width: 200px;
+   }
  
 }
 
@@ -586,6 +614,11 @@
     .padd_bottom {
         padding-bottom: 30px;
     }
+
+
+   #mascote{
+    width: 200px;
+   }
  
 
  
@@ -641,6 +674,10 @@
     .padd_bottom {
         padding-bottom: 30px;
     }
+
+   #mascote{
+    width: 200px;
+   }
  
 
  
