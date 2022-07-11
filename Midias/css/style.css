@@ -6,7 +6,7 @@ http://www.templatemo.com/tm-493-snapshot
 
 */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 
 /*---------------------------------------
     About Section              
@@ -26,6 +26,7 @@ http://www.templatemo.com/tm-493-snapshot
   border-radius: 4px;
   padding: 100px;
   position: relative;
+
 }
 
 
@@ -39,6 +40,7 @@ http://www.templatemo.com/tm-493-snapshot
   border-radius: 4px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  border-radius: 34px;
 }
 
 #about .team-thumb .image-holder {
@@ -117,22 +119,19 @@ http://www.templatemo.com/tm-493-snapshot
 
 }
 
-.titulo-midias{
-    color: #000;
+#Titulo-Midia{
+    color: #ffffff;
+    font-family: 'Rubik Moonrocks', cursive;
 }
 
 
-.titulo-midias:hover{
-    color: rgb(255, 255, 255);
-}
 
 
 
 
 #Titulo-Midia{
   margin-top: 60px;
-  font-size: 50px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 70px;
   margin-bottom: -20px;
   font-weight: bold;
   
@@ -140,15 +139,15 @@ http://www.templatemo.com/tm-493-snapshot
 
 #linha-midia{
   margin-top: 50px;
-  height:3px;
+  height:10px;
   border-width:0;
-  color:gray;
-  background-color:gray;
+  color: #ffffff;
+  background-color: #ffffff;
   
 }
 
 .midia{
-  background-color: #f2f3f5;
+  background-color: #bac63e;
   height: 920px;
 }
 
