@@ -22,7 +22,8 @@
 
     #botaotwo{
         width: 80%; 
-        font-size: 180%;
+        margin-bottom: -200px; font-size: 180%;
+        margin-bottom: -200px;
     }
 
     #botaotree{
@@ -95,7 +96,7 @@
         #botaotwo{
             width: 80%; 
             font-size: 180%;
-        }
+    margin-bottom: -200px;       }
     
         #botaotree{
             width: 80%; 
@@ -183,7 +184,9 @@
 
 
     
- 
+    #espaco{
+        height: 500px;
+    }
     
     .carousel-control-prev, .carousel-control-next{
         display: flex;
@@ -191,6 +194,7 @@
         justify-content: center;
         flex-direction: row;
         margin-left: 400px;
+        margin-top: -200px;
 
    }
 
@@ -293,7 +297,7 @@
         #botaotwo{
             width: 20%; 
             font-size: 130%;
-            margin-left: -200px;
+            margin-bottom: -200px;
         }
     
         #botaotree{
@@ -383,7 +387,7 @@
     
         #botaotwo{
             width: 20%; 
-            font-size: 130%;
+            margin-bottom: -200px; font-size: 130%;
             margin-left: -170px;
         }
     
@@ -512,7 +516,7 @@
     
         #botaotwo{
             width: 20%; 
-            font-size: 130%;
+            margin-bottom: -200px; font-size: 130%;
             margin-left: -170px;
             margin-bottom: -80px;
         }
@@ -650,8 +654,9 @@
     
         #botaotwo{
             width: 20%; 
-            font-size: 130%;
+            margin-bottom: -200px; font-size: 130%;
             margin-left: -170px;
+            margin-bottom: -80px;
         }
     
         #botaotree{
@@ -773,8 +778,9 @@
     
         #botaotwo{
             width: 20%; 
-            font-size: 130%;
+            margin-bottom: -200px; font-size: 130%;
             margin-left: -170px;
+            margin-bottom: -80px;
         }
     
         #botaotree{
@@ -826,8 +832,9 @@
     
         #botaotwo{
             width: 20%; 
-            font-size: 130%;
+            margin-bottom: -200px; font-size: 130%;
             margin-left: -170px;
+            margin-bottom: -50px;
         }
     
         #botaotree{
@@ -919,8 +926,9 @@
     
         #botaotwo{
             width: 20%; 
-            font-size: 130%;
+            margin-bottom: -200px; font-size: 130%;
             margin-left: -170px;
+            margin-bottom: -80px;
         }
     
         #botaotree{
@@ -1012,8 +1020,9 @@
     
         #botaotwo{
             width: 20%; 
-            font-size: 130%;
+            margin-bottom: -200px; font-size: 130%;
             margin-left: -170px;
+            margin-bottom: -80px;
         }
     
         #botaotree{
