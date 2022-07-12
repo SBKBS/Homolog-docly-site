@@ -1,4 +1,4 @@
-@@ -1,1049 +1,1058 @@
+
 /*--------------------------------------------------------------------- File N#me: responsive.css ---------------------------------------------------------------------*/
 
 
@@ -17,6 +17,7 @@
    }
 
    #botaoone{
+    margin-bottom: -80px;
     width: 100%; 
     font-size: 60%;
 }
@@ -91,6 +92,7 @@
     }
 
     #botaoone{
+        margin-bottom: -80px;
         width: 100%; 
         font-size: 200%;
     }
@@ -294,6 +296,7 @@
     }
 
     #botaoone{
+        margin-bottom: -80px;
         width: 40%; 
         font-size: 100%;
     }
@@ -386,6 +389,7 @@
 
 
     #botaoone{
+        margin-bottom: -80px;
        width: 100%;
        
     }
@@ -515,6 +519,7 @@
     }
 
      #botaoone{
+        margin-bottom: -80px;
        width: 200%;
        font-size: 80%;
        margin-left: -170px;
@@ -654,6 +659,7 @@
 
     
       #botaoone{
+        margin-bottom: -80px;
        width: 200%;
        font-size: 80%;
        margin-left: -170px;
@@ -779,6 +785,7 @@
     }
 
      #botaoone{
+        margin-bottom: -80px;
        width: 200%;
        font-size: 80%;
        margin-left: -170px;
@@ -834,6 +841,7 @@
         padding: 0px 19px 40px 20px;
     }
      #botaoone{
+        margin-bottom: -80px;
        width: 200%;
        font-size: 80%;
        margin-left: -170px;
@@ -929,6 +937,7 @@
     }
 
      #botaoone{
+        margin-bottom: -80px;
        width: 200%;
        font-size: 80%;
        margin-left: -170px;
@@ -1024,6 +1033,7 @@
         padding-bottom: 30px;
     }
      #botaoone{
+        margin-bottom: -80px;
        width: 200%;
        font-size: 80%;
        margin-left: -170px;
