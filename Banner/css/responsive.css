@@ -46,6 +46,11 @@
         flex-direction: row;
    }
 
+   #espaco{
+    height: 400px;
+}
+
+
    
 
 
@@ -117,6 +122,10 @@
         margin-left: 800px;
    }
 
+   #espaco{
+    height: 400px;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -147,14 +156,13 @@
         flex-direction: column;
         padding-left: 100px;
         margin-top: 200px;
+    
     }
     #banner1 .carousel-control-next {
         left: 7%;
     }
-    #banner1 a.carousel-control-next,
-    #banner1 a.carousel-control-prev {
-        top: 100%;
-    }
+
+    
     .service_box p {
         font-size: 16px;
     }
@@ -187,8 +195,10 @@
         justify-content: center;
         flex-direction: row;
         margin-left: 400px;
+
    }
 
+       
   
 
  
@@ -308,7 +318,7 @@
         justify-content: center;
         flex-direction: row;
         margin-left: 400px;
-        margin-top: -200px;
+        margin-top: -500px;
    }
 }
 
@@ -435,8 +445,8 @@
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        margin-left: 300px;
-        margin-top: -180px;
+        margin-left: 400px;
+        margin-top: -700px;
    }
 }
 
@@ -564,6 +574,15 @@
    .carousel-item{
     background-size: 1000px 1000px;
    }
+
+   .carousel-control-prev, .carousel-control-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-top: -800px;
+}
    
 
    
@@ -681,6 +700,15 @@
     .testimonial_box {
         padding: 0px 19px 40px 20px;
     }
+
+    .carousel-control-prev, .carousel-control-next{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 400px;
+        margin-top: -800px;
+   }
  
 }
 
@@ -821,7 +849,14 @@
    }
    
 
-   
+   .carousel-control-prev, .carousel-control-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-top: -800px;
+}
  
 }
 
@@ -904,6 +939,14 @@
    }
    
 
+   .carousel-control-prev, .carousel-control-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-top: -800px;
+}
    
  
 
@@ -988,7 +1031,14 @@
    
 
    
- 
+   .carousel-control-prev, .carousel-control-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-top: -800px;
+}
 
  
 }
