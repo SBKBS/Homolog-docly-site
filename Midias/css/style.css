@@ -12,9 +12,7 @@ http://www.templatemo.com/tm-493-snapshot
     About Section              
 -----------------------------------------*/
 
-#about{
-  margin-left: 20px;
-}
+
 
 #about .item {
   width: 100%;
@@ -121,7 +119,7 @@ http://www.templatemo.com/tm-493-snapshot
 
 #Titulo-Midia{
     color: #ffffff;
-    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -155,10 +153,7 @@ http://www.templatemo.com/tm-493-snapshot
   margin-top: 10px;
 }
 
-#thumb-container{
-  margin-left: 50px;
-  margin-right: 50PX;
-}
+
 
 body{
   overflow-x: hidden;

@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- File N#me: responsive.css ---------------------------------------------------------------------*/
 
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
@@ -13,6 +13,37 @@
 
     .carousel-caption{
         width: 100%;
+   }
+
+   #botaoone{
+    width: 100%; 
+    font-size: 60%;
+}
+
+    #botaotwo{
+        width: 80%; 
+        font-size: 180%;
+    }
+
+    #botaotree{
+        width: 80%; 
+        font-size: 180%;
+    }
+
+    
+    .controle{
+        width: 1500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .carousel-control-prev, .carousel-control-next{
+        margin-top: -140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
    }
 
    
@@ -52,6 +83,40 @@
         margin: 0px 1px;
         font-size: 16px;
     }
+
+    #botaoone{
+        width: 100%; 
+        font-size: 200%;
+    }
+    
+        #botaotwo{
+            width: 80%; 
+            font-size: 180%;
+        }
+    
+        #botaotree{
+            width: 80%; 
+            font-size: 180%;
+        }
+
+        
+    
+    .controle{
+        width: 1500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+        .carousel-control-prev, .carousel-control-next{
+        margin-top: -160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 800px;
+   }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -80,14 +145,15 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding-left: 32px;
+        padding-left: 100px;
+        margin-top: 200px;
     }
     #banner1 .carousel-control-next {
         left: 7%;
     }
     #banner1 a.carousel-control-next,
     #banner1 a.carousel-control-prev {
-        top: 121%;
+        top: 100%;
     }
     .service_box p {
         font-size: 16px;
@@ -110,6 +176,23 @@
     .padd_bott {
         margin-bottom: 20px;
     }
+
+
+    
+ 
+    
+    .carousel-control-prev, .carousel-control-next{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 400px;
+   }
+
+  
+
+ 
+    
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -119,19 +202,30 @@
         padding-bottom: 20px;
     }
     .text-bg {
-       display: flex;
+        display: flex;
        align-items: center;
        justify-content: center;
        flex-direction: column;
         padding-left: 0px;
-        padding-bottom: 30px;
+        
+        margin-left: -100px;
+        
+       
     }
     .text-bg span {
-        font-size: 44px;
+      
+        font-size: 24px;
+    }
+
+    .text-bg p {
+        width: 300px;
+        font-size: 15px;
+        margin-left: -120px;
+   
     }
     .box_text {
         margin-top: 30px;
-        box-shadow: #ddd 0px 0px 7px 0px;
+        box-shadow: rgb(19, 19, 19) 0px 0px 7px 0px;
     }
     #banner1 .carousel-control-next {
         left: 10%;
@@ -185,6 +279,37 @@
         background: url(../images/menu_icon.png);
         background-repeat: no-repeat;
     }
+
+    #botaoone{
+        width: 40%; 
+        font-size: 100%;
+    }
+    
+        #botaotwo{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -200px;
+        }
+    
+        #botaotree{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -200px;
+        }
+
+        #mascote{
+            display: none;
+        }
+
+           
+    .carousel-control-prev, .carousel-control-next{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 400px;
+        margin-top: -200px;
+   }
 }
 
 @media (max-width: 575px) {
@@ -246,10 +371,26 @@
     }
 
 
-   #mascote{
-    width: 200px;
-   }
+    #botaoone{
+       width: 100%;
+       
+    }
+    
+        #botaotwo{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
+    
+        #botaotree{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
 
+        #mascote{
+            display: none;
+        }
    .carousel-item{
     background-size: 1000px 1000px;
    }
@@ -289,6 +430,14 @@
         background-repeat: no-repeat;
     }
    
+    .carousel-control-prev, .carousel-control-next{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 300px;
+        margin-top: -180px;
+   }
 }
 
 
@@ -349,10 +498,27 @@
         padding-bottom: 30px;
     }
 
+     #botaoone{
+       width: 200%;
+       font-size: 80%;
+       margin-left: -170px;
+    }
+    
+        #botaotwo{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
+    
+        #botaotree{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
 
-   #mascote{
-    width: 200px;
-   }
+        #mascote{
+            display: none;
+        }
 
    .carousel-item{
     background-size: 1000px 1000px;
@@ -393,9 +559,7 @@
         background-repeat: no-repeat;
     }
 
-   #mascote{
-    width: 200px;
-   }
+    
 
    .carousel-item{
     background-size: 1000px 1000px;
@@ -416,7 +580,8 @@
     }
     .text-bg p {
         font-size: 15px;
-        width: 300px;
+        width: 200px;
+        margin-left: -100px;
     }
     .text-bg {
         display: flex;
@@ -461,10 +626,29 @@
         padding-bottom: 30px;
     }
 
+    
+      #botaoone{
+       width: 200%;
+       font-size: 80%;
+       margin-left: -170px;
+    }
+    
+        #botaotwo{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
+    
+        #botaotree{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
 
-   #mascote{
-    width: 200px;
-   }
+        #mascote{
+            display: none;
+        }
+    
 
    .carousel-item{
     background-size: 1000px 1000px;
@@ -511,7 +695,8 @@
     }
     .text-bg p {
         font-size: 15px;
-        width: 300px;
+        width: 200px;
+        margin-left: -100px;
     }
     .text-bg {
         display: flex;
@@ -556,10 +741,27 @@
         padding-bottom: 30px;
     }
 
+     #botaoone{
+       width: 200%;
+       font-size: 80%;
+       margin-left: -170px;
+    }
+    
+        #botaotwo{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
+    
+        #botaotree{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
 
-   #mascote{
-    width: 200px;
-   }
+        #mascote{
+            display: none;
+        }
 
    .carousel-item{
     background-size: 1000px 1000px;
@@ -592,10 +794,27 @@
     .testimonial_box {
         padding: 0px 19px 40px 20px;
     }
+     #botaoone{
+       width: 200%;
+       font-size: 80%;
+       margin-left: -170px;
+    }
+    
+        #botaotwo{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
+    
+        #botaotree{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
 
-   #mascote{
-    width: 200px;
-   }
+        #mascote{
+            display: none;
+        }
 
    .carousel-item{
     background-size: 1000px 1000px;
@@ -612,7 +831,8 @@
    
     .text-bg p {
         font-size: 15px;
-        width: 300px;
+        width: 200px;
+        margin-left: -100px;
     }
     .text-bg {
         display: flex;
@@ -657,10 +877,27 @@
         padding-bottom: 30px;
     }
 
+     #botaoone{
+       width: 200%;
+       font-size: 80%;
+       margin-left: -170px;
+    }
+    
+        #botaotwo{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
+    
+        #botaotree{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
 
-   #mascote{
-    width: 200px;
-   }
+        #mascote{
+            display: none;
+        }
 
    .carousel-item{
     background-size: 1000px 1000px;
@@ -723,10 +960,27 @@
     .padd_bottom {
         padding-bottom: 30px;
     }
+     #botaoone{
+       width: 200%;
+       font-size: 80%;
+       margin-left: -170px;
+    }
+    
+        #botaotwo{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
+    
+        #botaotree{
+            width: 20%; 
+            font-size: 130%;
+            margin-left: -170px;
+        }
 
-   #mascote{
-    width: 200px;
-   }
+        #mascote{
+            display: none;
+        }
 
    .carousel-item{
     background-size: 1000px 1000px;
