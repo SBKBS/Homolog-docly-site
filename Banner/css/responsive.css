@@ -46,9 +46,7 @@
         flex-direction: row;
    }
 
-   #espaco{
-    height: 400px;
-}
+
 
 
    
@@ -122,9 +120,7 @@
         margin-left: 800px;
    }
 
-   #espaco{
-    height: 400px;
-}
+
 
 }
 
@@ -201,7 +197,6 @@
        
   
 
- 
     
 }
 
@@ -448,7 +443,8 @@
         margin-left: 400px;
         margin-top: -700px;
    }
-}
+
+
 
 
 
@@ -518,6 +514,7 @@
             width: 20%; 
             font-size: 130%;
             margin-left: -170px;
+            margin-bottom: -80px;
         }
     
         #botaotree{
@@ -581,9 +578,8 @@
     justify-content: center;
     flex-direction: row;
     margin-left: 400px;
-    margin-top: -800px;
+    margin-top: -1000px;
 }
-   
 
    
    
@@ -707,10 +703,10 @@
         justify-content: center;
         flex-direction: row;
         margin-left: 400px;
-        margin-top: -800px;
+        margin-top: -1000px;
    }
  
-}
+
 
 
 @media (max-width: 375px) {
@@ -857,9 +853,12 @@
     margin-left: 400px;
     margin-top: -800px;
 }
- 
-}
 
+#espaco{
+    height: 300px;
+}
+}
+}
 
 
 @media (max-width: 652px) {
@@ -950,10 +949,11 @@
    
  
 
- 
+    #espaco{
+        height: 300px;
+    }
+
 }
-
-
 @media (max-width:254px) {
    
     .text-bg p {
@@ -965,6 +965,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        height: 500px;
       
     }
     .text-bg span {
@@ -1040,5 +1041,9 @@
     margin-top: -800px;
 }
 
- 
+#espaco{
+    height: 300px;
+}
+}
+
 }
