@@ -73,7 +73,7 @@
     }
     .text-bg span {
 
-          margin-left: 50px;
+        
         font-size: 45px;
         line-height: 60px;
     }
@@ -145,7 +145,7 @@
     }
     .text-bg span {
 
-          margin-left: 50px;
+        
         font-size: 34px;
         line-height: 33px;
     }
@@ -229,7 +229,7 @@
     }
     .text-bg span {
 
-          margin-left: 50px;
+        
       
         font-size: 24px;
     }
@@ -358,7 +358,7 @@
     }
     .text-bg span {
 
-          margin-left: 50px;
+        
         font-size: 32px;
         line-height: 56px;
     }
@@ -485,12 +485,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: -40px;
+        margin-left: -50px;
         margin-top: 50px;
     }
     .text-bg span {
 
-          margin-left: 50px;
+        
         font-size: 22px;
         line-height: 56px;
         width: 300px;
@@ -531,6 +531,7 @@
        width: 200%;
        font-size: 80%;
        margin-left: -170px;
+       margin-bottom: -80px;
     }
     
         #botaotwo{
@@ -545,6 +546,7 @@
             width: 20%; 
             font-size: 130%;
             margin-left: -170px;
+            margin-bottom: -80px;
         }
 
         #mascote{
@@ -627,12 +629,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: -40px;
+        margin-left: -50px;
         margin-top: 50px;
     }
     .text-bg span {
 
-          margin-left: 50px;
+        
         width: 300px;
         font-size: 22px;
         line-height: 56px;
@@ -756,12 +758,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: -40px;
+        margin-left: -50px;
         margin-top: 50px;
     }
     .text-bg span {
 
-          margin-left: 50px;
+        
         width: 300px;
         font-size: 22px;
         line-height: 56px;
@@ -909,12 +911,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: 10px;
+        margin-left: -50px;
         margin-top: 50px;
     }
     .text-bg span {
 
-          margin-left: 50px;
+        
         width: 300px;
         font-size: 22px;
         line-height: 56px;
@@ -1011,7 +1013,7 @@
     }
     .text-bg span {
 
-          margin-left: 50px;
+        
 
         width: 200px;
         font-size: 20px;
