@@ -99,7 +99,7 @@
             width: 80%; 
             font-size: 180%;
         }
-    margin-bottom: -200px;       }
+  
     
         #botaotree{
             width: 80%; 
@@ -348,6 +348,7 @@
         justify-content: center;
         padding-left: 0px;
         padding-bottom: 30px;
+        margin-left: -40px;
     }
     .text-bg span {
         font-size: 32px;
@@ -467,7 +468,7 @@
         float: right;
     }
     .text-bg p {
-        width: 300px;
+        width: 140px;
         font-size: 10px;
      
     }
@@ -476,7 +477,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-      
+        margin-left: -40px;
+        margin-top: 50px;
     }
     .text-bg span {
         font-size: 22px;
@@ -606,7 +608,7 @@
     }
     .text-bg p {
         font-size: 15px;
-        width: 200px;
+        width: 140px;
         margin-left: -100px;
     }
     .text-bg {
@@ -614,7 +616,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-      
+        margin-left: -40px;
+        margin-top: 50px;
     }
     .text-bg span {
         width: 300px;
@@ -732,7 +735,7 @@
     }
     .text-bg p {
         font-size: 15px;
-        width: 200px;
+        width: 140px;
         margin-left: -100px;
     }
     .text-bg {
@@ -740,7 +743,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-      
+        margin-left: -40px;
+        margin-top: 50px;
     }
     .text-bg span {
         width: 300px;
@@ -882,7 +886,7 @@
    
     .text-bg p {
         font-size: 15px;
-        width: 200px;
+        width: 140px;
         margin-left: -100px;
     }
     .text-bg {
@@ -890,7 +894,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-      
+        margin-left: -40px;
+        margin-top: 50px;
     }
     .text-bg span {
         width: 300px;
@@ -977,7 +982,7 @@
    
     .text-bg p {
         font-size: 12px;
-        width: 200px;
+        width: 140px;
     }
     .text-bg {
         display: flex;
