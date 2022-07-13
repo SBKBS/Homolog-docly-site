@@ -285,7 +285,7 @@ button {
 
 .text-bg {
      text-align: left;
-     padding-left: 100px;
+     margin-top: -20px;
 }
 
 
@@ -336,13 +336,13 @@ button {
 
 #banner1 .carousel-control-next {
      right: inherit;
-     left: 7%;
+     left: 9%;
 }
 
 #banner1 a.carousel-control-next,
 #banner1 a.carousel-control-prev {
      opacity: 1;
-     top: 110%;
+     top: 100%;
      margin-left: 400px;
 }
 
@@ -398,6 +398,7 @@ button {
 #botaotwo{
      width: 80%; 
      font-size: 180%;
+  
 }
 
 #botaotree{

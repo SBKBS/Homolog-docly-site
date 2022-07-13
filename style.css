@@ -51,10 +51,11 @@ body {
     font-size: 15px;
     font-family: 'Ubuntu', sans-serif; 
     line-height: 1.7;
-  
-  
 
-   
+}
+
+body #Titulo-grande{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body.demos .section {
@@ -113,27 +114,33 @@ h6 {
 }
 
 h1 {
-    font-size: 24px
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
-    font-size: 22px
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h3 {
-    font-size: 18px
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h4 {
-    font-size: 16px
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h5 {
-    font-size: 14px
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h6 {
-    font-size: 13px
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 a,
@@ -343,7 +350,7 @@ a img.aligncenter {
 .letter{
     font-size:100px;
     color:#222;
-    font-family:tahoma;
+    font-family:'Segoe', Arial, Helvetica, sans-serif, Geneva, Verdana, sans-serif;
 }
 
 .box{
@@ -1256,7 +1263,7 @@ body.seo_version .btn-light.ban-btn{
 
 .icon-wrapper p small:after {
     content: "\f105";
-    font-family: FontAwesome;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 5px;
     font-size: 11px;
 }
@@ -2591,7 +2598,7 @@ border-radius: 33px;
 
 .termos p{
     font-size: 16px;
-    font-family: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #373737;
     margin-bottom: 50px;
 }
@@ -2688,7 +2695,7 @@ border-radius: 33px;
     color: white;
     font-style: initial;
     font-weight: 900;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 180px;
     margin-left: 100px;
  
@@ -2734,13 +2741,7 @@ border-radius: 33px;
 
 
   
-.lista{
-    list-style: initial;
-    font-family: sans-serif;
-    font-size: 18px;
-    margin-left: 40px;
-    color:rgb(119, 119, 119);
-}
+
 
 
 .termos-LGPD h3{
@@ -2810,6 +2811,14 @@ border-radius: 33px;
     .slider .slide {
     height: 100px;
     width: 250px;
+    }
+
+    .who{
+        height: 380px;
+    }
+
+    .Titulo-grande{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
 
