@@ -1,4 +1,5 @@
 
+
 /*--------------------------------------------------------------------- File N#me: responsive.css ---------------------------------------------------------------------*/
 
 
@@ -9,6 +10,7 @@
     .text-bg {
 
         font-size: 130px;
+        margin-left: 500px;
    
     }
 
@@ -103,7 +105,9 @@
             font-size: 180%;
             
             margin-bottom: -200px;
+
         }
+ 
         
     
         #botaotree{
@@ -159,6 +163,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding-left: 100px;
         padding-left: -50px;
         margin-top: 200px;
     
@@ -226,6 +231,7 @@
        flex-direction: column;
         padding-left: 0px;
         
+        margin-left: -100px;
         margin-left: -50px;
         
        
@@ -462,7 +468,7 @@
         margin-top: -700px;
    }
 
-
+}
 
 
 
@@ -475,6 +481,7 @@
         float: right;
     }
     .text-bg p {
+        width: 300px;
         width: 80px;
         font-size: 10px;
      
@@ -484,12 +491,14 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+      margin-left: -30px;
       margin-left: -50px;
       margin-top: 20px;
 
     }
     .text-bg span {
         font-size: 22px;
+        line-height: 56px;
         width: 300px;
     }
     .carousel-control-next {
@@ -615,6 +624,9 @@
         float: right;
     }
     .text-bg p {
+        font-size: 15px;
+        width: 200px;
+        margin-left: -100px;
         width: 80px;
         font-size: 10px;
     }
@@ -623,12 +635,14 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+      margin-left: -30px;
       margin-left: -50px;
       margin-top: 20px;
     }
     .text-bg span {
         width: 300px;
         font-size: 22px;
+        line-height: 56px;
     }
     .carousel-control-next {
         left: 17% !important;
@@ -742,7 +756,7 @@
     }
     .text-bg p {
         font-size: 15px;
-        width: 140px;
+        width: 200px;
         margin-left: -100px;
     }
     .text-bg {
@@ -750,12 +764,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+      margin-left: -30px;
       margin-left: -10px;
     }
     .text-bg span {
-        margin-left: -40px;
-        width: 200px;
-        font-size: 15px;
+        width: 300px;
+        font-size: 22px;
         line-height: 56px;
     }
     .carousel-control-next {
@@ -900,7 +914,7 @@
     }
     .text-bg p {
         font-size: 15px;
-        width: 140px;
+        width: 200px;
         margin-left: -100px;
     }
     .text-bg {
@@ -911,9 +925,8 @@
       margin-left: 50px;
     }
     .text-bg span {
-        margin-left: -40px;
-        width: 200px;
-        font-size: 15px;
+        width: 300px;
+        font-size: 22px;
         line-height: 56px;
     }
     .carousel-control-next {
@@ -1053,7 +1066,7 @@
    
     .text-bg p {
         font-size: 15px;
-        width: 140px;
+        width: 200px;
         margin-left: -100px;
     }
     .text-bg {
@@ -1061,12 +1074,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+      margin-left: -30px;
       margin-left: -50px;
     }
     .text-bg span {
-        margin-left: -40px;
-        width: 200px;
-        font-size: 15px;
+        width: 300px;
+        font-size: 22px;
         line-height: 56px;
     }
     .carousel-control-next {
@@ -1149,6 +1162,7 @@
 @media (max-width:254px) {
    
     .text-bg p {
+        font-size: 12px;
         font-size: 10px;
         width: 200px;
     }
@@ -1164,6 +1178,7 @@
     .text-bg span {
 
         width: 200px;
+        font-size: 20px;
         font-size: 12px;
         line-height: 56px;
         margin-left: -100px;
@@ -1234,6 +1249,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    margin-left: 400px;
+    margin-top: -800px;
   
     margin-top: -1000px;
 }
