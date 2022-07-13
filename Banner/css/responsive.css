@@ -76,7 +76,7 @@
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
 
      /* estilos */
  .text-bg{
@@ -307,14 +307,14 @@
     
      .text-bg span{
         font-size: 28px;
-        width: 300px;
+        width: 1000px;
         margin-bottom: 10px;
     
      }
     
      .text-bg p{
         font-size: 22px;
-        width: 300px;
+        width: 1000px;
     
      }
     
@@ -370,12 +370,149 @@
 
 
 @media screen and (max-width: 1024px) {
-    /* estilos */
+        .text-bg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: -200px;
+     }
+    
+     .text-bg span{
+        font-size: 28px;
+        width: 800px;
+        margin-bottom: 10px;
+    
+     }
+    
+     .text-bg p{
+        font-size: 22px;
+        width: 1500px;
+    
+     }
+    
+     #slidetwo p{
+        width: 280px;
+      
+     }
+    
+     #slidetwo span{
+        width: 280px;
+     
+      
+     }
+    
+     #slidetwo{
+        margin-left: -220px;
+     }
+    
+     .carousel-control-prev, .carousel-control-next{
+        margin-top: -200px;
+     }
+    
+     #botaoone{
+        font-size: 150%;
+        width: 360px;
+        margin-bottom: 150px;
+        margin-left: 20px;
+     }
+    
+     #botaotwo{
+        font-size: 120%;
+        width: 180px;
+        margin-left: -130px;
+        margin-top: -30px;
+     }
+    
+     #botaotree{
+        font-size: 120%;
+        width: 180px;
+        margin-left: -130px;
+        margin-top: -30px;
+     }
+    
+     .principal{
+        line-height: -150px;
+     }
+     #mascote{
+        width: 470px;
+        margin-left: 250px;
+        margin-top: -180px;
+    }
 }
 
 
 @media screen and (max-width: 1200px) {
-    /* estilos */
+           .text-bg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 80px;
+     }
+    
+     .text-bg span{
+        font-size: 28px;
+        width: 500px;
+        margin-bottom: 10px;
+    
+     }
+    
+     .text-bg p{
+        font-size: 22px;
+        width: 500px;
+        margin-bottom: 80px;
+    
+     }
+    
+     #slidetwo p{
+        width: 280px;
+      
+     }
+    
+     #slidetwo span{
+        width: 280px;
+     
+      
+     }
+    
+     #slidetwo{
+        margin-left: -20px;
+     }
+    
+     .carousel-control-prev, .carousel-control-next{
+        margin-top: -200px;
+     }
+    
+     #botaoone{
+        font-size: 150%;
+        width: 360px;
+        margin-bottom: 150px;
+        margin-left: -130px;
+     }
+    
+     #botaotwo{
+        font-size: 150%;
+        width: 180px;
+        margin-left: -100px;
+        margin-top: -30px;
+     }
+    
+     #botaotree{
+        font-size: 150%;
+        width: 180px;
+        margin-left: -330px;
+        margin-top: -30px;
+     }
+    
+     .principal{
+        line-height: -330px;
+     }
+     #mascote{
+        width: 500px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
 }
 
    
