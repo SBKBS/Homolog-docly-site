@@ -84,19 +84,19 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 0px;
  }
 
  .text-bg span{
     font-size: 18px;
-    width: 300px;
+    width: 100%;
     margin-bottom: 10px;
 
  }
 
  .text-bg p{
     font-size: 10px;
-    width: 300px;
+    width: 100%;
 
  }
 
@@ -151,17 +151,92 @@
    
 }
 
+@media screen and (max-width: 412px) {
+
+    /* estilos */
+.text-bg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-left: 50px;
+}
+
+.text-bg span{
+   font-size: 18px;
+   width: 100%;
+   margin-bottom: 10px;
+
+}
+
+.text-bg p{
+   font-size: 10px;
+   width: 100%;
+
+}
+
+#slidetwo p{
+   width: 140px;
+ 
+}
+
+#slidetwo span{
+   width: 140px;
+
+ 
+}
+
+#slidetwo{
+   margin-left: -80px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+   margin-top: -900px;
+}
+
+#botaoone{
+   font-size: 100%;
+   width: 250px;
+   margin-bottom: 150px;
+}
+
+#botaotwo{
+   font-size: 100%;
+   width: 150px;
+   margin-left: 10px;
+}
+
+#botaotree{
+   font-size: 100%;
+   width: 150px;
+   margin-left: -100px;
+   margin-bottom: 160px;
+   margin-top: 60px;
+}
+
+.principal{
+   line-height: -150px;
+}
+#mascote{
+   width: 350px;
+   margin-left: 250px;
+   margin-top: -180px;
+}
+
+  
+}
+
 @media screen and (max-width: 600px) {
     .text-bg{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-left: -70px;
+        margin-left: -20px;
      }
     
      .text-bg span{
-        font-size: 22px;
+        font-size: 18px;
         width: 300px;
         margin-bottom: 10px;
     
@@ -185,7 +260,7 @@
      }
     
      #slidetwo{
-        margin-left: -150px;
+        margin-left: -100px;
      }
     
      .carousel-control-prev, .carousel-control-next{
@@ -224,295 +299,78 @@
     
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 810px) {
     .text-bg{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-left: -190px;
+        margin-left: -100px;
      }
     
      .text-bg span{
         font-size: 28px;
-        width: 300px;
+        width: 500px;
         margin-bottom: 10px;
     
      }
     
      .text-bg p{
-        font-size: 22px;
+        font-size: 18px;
+        width: 500px;
+    
+     }
+    
+     #slidetwo p{
         width: 300px;
-    
-     }
-    
-     #slidetwo p{
-        width: 280px;
       
      }
     
      #slidetwo span{
-        width: 280px;
+        width: 300px;
      
       
      }
     
      #slidetwo{
-        margin-left: -220px;
-     }
-    
-     .carousel-control-prev, .carousel-control-next{
-        margin-top: -900px;
-     }
-    
-     #botaoone{
-        font-size: 150%;
-        width: 360px;
-        margin-bottom: 150px;
-        margin-left: 20px;
-     }
-    
-     #botaotwo{
-        font-size: 120%;
-        width: 180px;
-        margin-left: -130px;
-        margin-top: -30px;
-     }
-    
-     #botaotree{
-        font-size: 120%;
-        width: 180px;
-        margin-left: -130px;
-        margin-top: -30px;
-     }
-    
-     .principal{
-        line-height: -150px;
-     }
-     #mascote{
-        width: 470px;
-        margin-left: 250px;
-        margin-top: -180px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-        .text-bg{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-left: -190px;
-     }
-    
-     .text-bg span{
-        font-size: 28px;
-        width: 1000px;
-        margin-bottom: 10px;
-    
-     }
-    
-     .text-bg p{
-        font-size: 22px;
-        width: 1000px;
-    
-     }
-    
-     #slidetwo p{
-        width: 280px;
-      
-     }
-    
-     #slidetwo span{
-        width: 280px;
-     
-      
-     }
-    
-     #slidetwo{
-        margin-left: -220px;
-     }
-    
-     .carousel-control-prev, .carousel-control-next{
-        margin-top: -900px;
-     }
-    
-     #botaoone{
-        font-size: 150%;
-        width: 360px;
-        margin-bottom: 150px;
-        margin-left: 20px;
-     }
-    
-     #botaotwo{
-        font-size: 120%;
-        width: 180px;
-        margin-left: -130px;
-        margin-top: -30px;
-     }
-    
-     #botaotree{
-        font-size: 120%;
-        width: 180px;
-        margin-left: -130px;
-        margin-top: -30px;
-     }
-    
-     .principal{
-        line-height: -150px;
-     }
-     #mascote{
-        width: 470px;
-        margin-left: 250px;
-        margin-top: -180px;
-    }
-}
-
-
-@media screen and (max-width: 1024px) {
-        .text-bg{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
         margin-left: -200px;
      }
     
-     .text-bg span{
-        font-size: 28px;
-        width: 800px;
-        margin-bottom: 10px;
-    
-     }
-    
-     .text-bg p{
-        font-size: 22px;
-        width: 1500px;
-    
-     }
-    
-     #slidetwo p{
-        width: 280px;
-      
-     }
-    
-     #slidetwo span{
-        width: 280px;
-     
-      
-     }
-    
-     #slidetwo{
-        margin-left: -220px;
-     }
-    
      .carousel-control-prev, .carousel-control-next{
-        margin-top: -200px;
+        margin-top: -900px;
      }
     
      #botaoone{
         font-size: 150%;
-        width: 360px;
+        width: 350px;
         margin-bottom: 150px;
-        margin-left: 20px;
+        margin-left: -130px;
      }
     
      #botaotwo{
-        font-size: 120%;
-        width: 180px;
-        margin-left: -130px;
-        margin-top: -30px;
+        font-size: 130%;
+        width: 150px;
+        margin-left: -140px;
+       
+        
      }
     
      #botaotree{
-        font-size: 120%;
-        width: 180px;
-        margin-left: -130px;
-        margin-top: -30px;
+        font-size: 130%;
+        width: 150px;
+        margin-left: -330px;
+        margin-bottom: 160px;
      }
     
      .principal{
         line-height: -150px;
      }
      #mascote{
-        width: 470px;
+        width: 450px;
         margin-left: 250px;
         margin-top: -180px;
     }
+    
+    
 }
-
-
-@media screen and (max-width: 1200px) {
-           .text-bg{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-left: 80px;
-     }
-    
-     .text-bg span{
-        font-size: 28px;
-        width: 500px;
-        margin-bottom: 10px;
-    
-     }
-    
-     .text-bg p{
-        font-size: 22px;
-        width: 500px;
-        margin-bottom: 80px;
-    
-     }
-    
-     #slidetwo p{
-        width: 280px;
-      
-     }
-    
-     #slidetwo span{
-        width: 280px;
-     
-      
-     }
-    
-     #slidetwo{
-        margin-left: -20px;
-     }
-    
-     .carousel-control-prev, .carousel-control-next{
-        margin-top: -200px;
-     }
-    
-     #botaoone{
-        font-size: 150%;
-        width: 360px;
-        margin-bottom: 150px;
-        margin-left: -130px;
-     }
-    
-     #botaotwo{
-        font-size: 150%;
-        width: 180px;
-        margin-left: -100px;
-        margin-top: -30px;
-     }
-    
-     #botaotree{
-        font-size: 150%;
-        width: 180px;
-        margin-left: -330px;
-        margin-top: -30px;
-     }
-    
-     .principal{
-        line-height: -330px;
-     }
-     #mascote{
-        width: 500px;
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-}
-
-   
