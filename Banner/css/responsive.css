@@ -118,7 +118,7 @@
     }
     
         .carousel-control-prev, .carousel-control-next{
-        margin-top: -160px;
+        margin-top: -860px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -326,7 +326,7 @@
         justify-content: center;
         flex-direction: row;
         margin-left: 400px;
-        margin-top: -500px;
+        margin-top: -800px;
    }
 }
 
@@ -460,7 +460,7 @@
         justify-content: center;
         flex-direction: row;
         margin-left: 400px;
-        margin-top: -700px;
+        margin-top: -800px;
    }
 
 
@@ -486,11 +486,12 @@
         align-items: center;
         justify-content: center;
         margin-left: -50px;
-        margin-top: 50px;
+      
     }
     .text-bg span {
 
-        
+        margin-top: -20px;
+        margin-left: 50px;
         font-size: 22px;
         line-height: 56px;
         width: 300px;
