@@ -72,6 +72,8 @@
         padding-bottom: 11px;
     }
     .text-bg span {
+
+          margin-left: 50px;
         font-size: 45px;
         line-height: 60px;
     }
@@ -142,6 +144,8 @@
         padding-bottom: 10px;
     }
     .text-bg span {
+
+          margin-left: 50px;
         font-size: 34px;
         line-height: 33px;
     }
@@ -219,19 +223,19 @@
        align-items: center;
        justify-content: center;
        flex-direction: column;
-        padding-left: 0px;
-        
         margin-left: -100px;
         
        
     }
     .text-bg span {
+
+          margin-left: 50px;
       
         font-size: 24px;
     }
 
     .text-bg p {
-        width: 300px;
+        width: 140px;
         font-size: 15px;
         margin-left: -120px;
    
@@ -340,6 +344,8 @@
         padding-bottom: 10px;
        
     }
+ 
+    
     .text-bg { 
         
         display: flex;
@@ -351,6 +357,8 @@
         margin-left: -40px;
     }
     .text-bg span {
+
+          margin-left: 50px;
         font-size: 32px;
         line-height: 56px;
     }
@@ -477,13 +485,16 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: -40px;
+        margin-left: -20px;
         margin-top: 50px;
     }
     .text-bg span {
+
+          margin-left: 50px;
         font-size: 22px;
         line-height: 56px;
         width: 300px;
+        
     }
     .carousel-control-next {
         left: 17% !important;
@@ -616,10 +627,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: -40px;
+        margin-left: -20px;
         margin-top: 50px;
     }
     .text-bg span {
+
+          margin-left: 50px;
         width: 300px;
         font-size: 22px;
         line-height: 56px;
@@ -743,10 +756,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: -40px;
+        margin-left: -20px;
         margin-top: 50px;
     }
     .text-bg span {
+
+          margin-left: 50px;
         width: 300px;
         font-size: 22px;
         line-height: 56px;
@@ -894,10 +909,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: -40px;
+        margin-left: -20px;
         margin-top: 50px;
     }
     .text-bg span {
+
+          margin-left: 50px;
         width: 300px;
         font-size: 22px;
         line-height: 56px;
@@ -993,6 +1010,8 @@
       
     }
     .text-bg span {
+
+          margin-left: 50px;
 
         width: 200px;
         font-size: 20px;
