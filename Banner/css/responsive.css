@@ -160,7 +160,7 @@
     
     }
     #banner1 .carousel-control-next {
-        left: 7%;
+        left: 9%;
     }
 
     
@@ -186,12 +186,6 @@
         margin-bottom: 20px;
     }
 
-
-    
- 
-    #espaco{
-        height: 500px;
-    }
     
     .carousel-control-prev, .carousel-control-next{
         display: flex;
@@ -227,14 +221,14 @@
     .text-bg span {
 
         
-      
-        font-size: 24px;
+        width: 500px;
+        font-size: 34px;
     }
 
     .text-bg p {
-        width: 140px;
-        font-size: 15px;
-        margin-left: -120px;
+        width: 500px;
+        font-size: 25px;
+ 
    
     }
     .box_text {
@@ -296,7 +290,7 @@
 
     #botaoone{
         width: 40%; 
-        font-size: 100%;
+        font-size: 150%;
     }
     
         #botaotwo{
@@ -312,19 +306,26 @@
             margin-left: -200px;
         }
 
+
+        #mascote{
+            width: 400px;
+            margin-left: 400px;
+            margin-top: -30px;
+        }
       
 
            
     .carousel-control-prev, .carousel-control-next{
-        display: 
-        align-items: cen  justify-content: center;
+        display: flex;
+        align-items: center ;
+        justify-content: center;
         flex-direction: row;
         margin-left: 400px;
-        margin-top: -800px;
+        margin-top: -500px;
    }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 428px) {
     .header {
         padding: 30px 0px 15px 0px;
     }
@@ -332,12 +333,19 @@
         margin-top: -48px;
         float: right;
     }
-    .text-bg h1 {
-        font-size: 68px;
-        line-height: 70px;
-        padding-bottom: 10px;
-       
+    #slidetwo p{
+        width: 140px;
+        margin-left: -150px;
     }
+
+    #slidetwo span{
+        width: 200px;
+        margin-left: -100px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    
+    }
+ 
  
     
     .text-bg { 
@@ -346,16 +354,23 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-left: 0px;
+        margin-left: -50px;
         padding-bottom: 30px;
-        margin-left: -40px;
+       
     }
     .text-bg span {
-
-        
-        font-size: 32px;
-        line-height: 56px;
+        font-size: 22px;
+        line-height: -56px;
+        width: 280px;
     }
+
+    .text-bg p {
+        font-size: 12px;
+        line-height: -56px;
+        width: 280px;
+        
+    }
+
     .carousel-control-next {
         left: 17% !important;
     }
@@ -389,14 +404,16 @@
 
 
     #botaoone{
-       width: 100%;
+       width: 150%;
+       font-size: 80%;
+       margin-left: -150px;
        
     }
     
         #botaotwo{
             width: 20%; 
             font-size: 130%;
-            margin-bottom: -200px; font-size: 130%;
+            margin-bottom: -100px; font-size: 130%;
             margin-left: -170px;
         }
     
@@ -406,12 +423,7 @@
             margin-left: -170px;
         }
 
-      
-avigation.navbar {
-        display: inherit !important;
-        padding: 0 !important;
-        width: 100%;
-    }
+
     .navigation .navbar-collapse {
         background: #000;
         padding: 20px;
@@ -445,12 +457,18 @@ avigation.navbar {
         justify-content: center;
         flex-direction: row;
         margin-left: 400px;
-        margin-top: -800px;
+        margin-top: -700px;
+   }
+
+   #mascote{
+    width: 350px;
+    margin-left: 150px;
+    margin-top: -30px;
    }
 
 
 
-
+}
 
 @media (max-width: 414px) {
     .header {
@@ -615,24 +633,28 @@ avigation.navbar {
         float: right;
     }
     .text-bg p {
+        width: 300px;
         font-size: 15px;
-        width: 140px;
-        margin-left: -100px;
+     
     }
     .text-bg {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: -50px;
+        margin-left: -10px;
         margin-top: 50px;
+  
+      
     }
+    
+
     .text-bg span {
 
-        
+        margin-top: 20px;
+        font-size: 18px;
         width: 300px;
-        font-size: 22px;
-        line-height: 56px;
+        
     }
     .carousel-control-next {
         left: 17% !important;
@@ -665,10 +687,24 @@ avigation.navbar {
         padding-bottom: 30px;
     }
 
+    #slidetwo p{
+        width: 140px;
+        margin-left: -180px;
+    }
+
+    #slidetwo span{
+        width: 200px;
+        margin-left: -130px;
+        margin-top: -40px;
+        margin-bottom: -10px;
+    
+    }
+
      #botaoone{
-       width: 200%;
-       font-size: 80%;
-       margin-left: -170px;
+       width: 250px;
+       font-size: 120%;
+       margin-left: -200px;
+       margin-bottom: -80px;
     }
     
         #botaotwo{
@@ -676,13 +712,14 @@ avigation.navbar {
             font-size: 130%;
             margin-bottom: -200px; font-size: 130%;
             margin-left: -170px;
-            margin-bottom: -80px;
+            margin-bottom: -140px;
         }
     
         #botaotree{
             width: 20%; 
             font-size: 130%;
             margin-left: -170px;
+            margin-bottom: -80px;
         }
    
     .navigation.navbar {
@@ -702,46 +739,38 @@ avigation.navbar {
         padding: 10px 0;
         color: #fff;
     }
-  
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: #bc1939;
+    }
     .navigation.navbar-dark .navbar-toggler {
         border: inherit;
     }
     .testimonial_box {
         padding: 0px 19px 40px 20px;
     }
-     #botaoone{
-       width: 200%;
-       font-size: 80%;
-       margin-left: -170px;
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
     }
-    
-        #botaotwo{
-            width: 20%; 
-            font-size: 130%;
-            margin-bottom: -200px; font-size: 130%;
-            margin-left: -170px;
-            margin-bottom: -50px;
-        }
-    
-        #botaotree{
-            width: 20%; 
-            font-size: 130%;
-            margin-left: -170px;
-        }
 
-      
+    
 
-   .carousel-control-prev, .carousel-control-nesplay: flex;
+   #mascote{
+    width: 330px;
+    margin-left: 200px;
+    margin-top: -10px;
+   }
+
+   .carousel-control-prev, .carousel-control-next{
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     margin-left: 400px;
-    margin-top: -800px;
+    margin-top: -700px;
 }
 
-#espaco{
-    height: 300px;
-}
 
 }
 
@@ -819,7 +848,7 @@ avigation.navbar {
         }
 
        
-rousel-control-prev, .carousel-control-next{
+.carousel-control-prev, .carousel-control-next{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -829,7 +858,7 @@ rousel-control-prev, .carousel-control-next{
 }
 
 #espaco{
-    height: 300px;
+    height: 250px;
 }
 }
 
